@@ -57,12 +57,26 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    // Use the Fs to write the responese for the Markdown file
+    fs.writeFile(fileName, data, (err) => 
+    // incase of an error, error will be reported
+    // incase of no error, a message will be created to indicate the Markdown fill was created
+    err? console.error(err) : console.log(`Your ${data.title} README.md file has been created.`)
+    );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    // Questions for the user to complete the Markdown file
+    inquirer.prompt(questions).then((answers) => {
+        const data = generateMarkdown(answers);
+        console.log(answers);
+        // creates the Markdown file based on the answers provided
+        writeToFile('README.md', data);
+    });
+};
 
 // Function call to initialize app
 init();
 
-console.log('Hello Node');
