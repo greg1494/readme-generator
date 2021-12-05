@@ -1,7 +1,7 @@
 # Professional README.md generator
   ![License](https://img.shields.io/badge/License-undefined--blue)
 
-  ##Table of Contents
+  ## Table of Contents
   * [Description](#description)
   * [Usage](#usage)
   * [Installation](#installation)
