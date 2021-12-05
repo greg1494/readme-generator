@@ -2,13 +2,13 @@
   ![License](https://img.shields.io/badge/License-undefined--blue)
 
   ##Table of Contents
-  *[Description](#description)
-  *[Usage](#usage)
-  *[Installation](#installation)
-  *[Testing](#testing)
-  *[License](#license)
-  *[Contributing to This Repo](#contributefaq)
-  *[Questions / Contact for Details](#questions)
+  * [Description](#description)
+  * [Usage](#usage)
+  * [Installation](#installation)
+  * [Testing](#testing)
+  * [License](#license)
+  * [Contributing to This Repo](#contributefaq)
+  * [Questions / Contact for Details](#questions)
 
   <a name='description'></a>
   ## Description
