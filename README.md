@@ -31,6 +31,8 @@
   <a name='usefaq'></a>
   ## Usage
   The user should be have an easy time using the application
+  
+  Here is a video description of how the application is used: https://watch.screencastify.com/v/3KSrWk7dPvb7GxBa8sm5
 
   <a name='install'></a>
   ## Installation
